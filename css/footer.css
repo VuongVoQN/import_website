@@ -1,0 +1,62 @@
+footer {
+    margin: 0;
+}
+
+.footer__content {
+    background-color: #252525;
+    color: white;
+    font-size: 14px;
+}
+
+.footer__control {
+    display: flex;
+    padding: 70px 0;
+}
+
+.column-4 {
+    width: 33.33%;
+    margin: 20px 10px;
+}
+
+.bottom__logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+
+    background-color: inherit;
+    margin: 5px 0;
+}
+
+.bottom__logo a {
+    color: white;
+}
+
+.footer__logo p {
+    margin-top: 40px;
+}
+
+.footer__menu ul{
+    margin-top: 10px;
+}
+
+.footer__menu li{
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+    color: white;
+}
+
+.footer_fanpage {
+    position: relative;
+}
+
+.fanpage {
+    position: absolute;
+    right: 0;
+}
+
+.copyright {
+    background-color: #1e1e1e;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

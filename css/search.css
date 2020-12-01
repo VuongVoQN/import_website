@@ -1,0 +1,129 @@
+.search {
+    background-image: url("../image/Layer2.png");
+    background-size: cover;
+
+    height: 338px;
+
+
+    color: white;
+}
+
+.search__control {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+
+.search__left {
+    /*background-color: blue;*/ 
+    margin: 60px 70px;
+    width: 500px;
+}
+
+.search__left p {
+    font-size: 14px;
+    margin: 15px 0;
+    padding-top: 10px;
+}
+
+.search__tab {
+    width: 100%;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.search__tablinks {
+    color: white;
+    font-size: 24px;
+    margin: auto 0;
+    padding: 0 20px;
+    
+    background-color: transparent;
+
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #66c2e9;
+    color: #66c2e9;
+}
+
+
+.search__tablinks.active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.buttonIn{
+    position: relative;
+}
+
+#button__inside {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    padding: 7px 15px;
+
+    border-radius: 30px;
+    background-color: #29aae1;
+    color: white;
+    box-shadow: 0 2px 5px gray;
+
+    font-size: 10px;
+    font-weight: bold;
+    outline: none;
+}
+
+#search__input {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    font-style: italic;
+
+    border: none;
+    border-radius: 30px;
+    background-color: #f8f8f8;
+    outline: none;
+}
+
+.search__button {
+    color: white;
+    width: 80px;
+    padding: 5px 10px;
+    margin: 5px 0;
+
+    border: 1px solid rgb(172, 218, 240);
+    border-radius: 50px;;
+    background-color: transparent;
+}
+
+.search__button:hover{
+    background-color: #2599ca;
+}
+
+.search__right {  
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    left: 50px;
+
+    margin: auto 40px;
+  /*  background-color: yellow; */
+}
+
+.search__item {
+    margin: 15px 10px;
+    display: flex; 
+  /*  background-color: red; */
+}
+
+.search__item p {
+    font-size: 20px;
+}
+
+.search__info{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 10px;
+}

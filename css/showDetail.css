@@ -1,0 +1,50 @@
+.showDetail {
+    background-image: url("../image/Layer4.png");
+    background-size: cover;
+    height: 482px;
+}
+
+.showDetail__control{
+    margin: auto 160px;
+    color: white;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.showDetail__img {
+    text-align: center;
+}
+
+.showDetail__content{
+    display: flex;
+}
+
+.showDetail__text {
+    width: 75%;
+    padding: 10px;
+}
+
+.showDetail__text p {
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+#showDetail__button {
+    background-color: #29aae1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+
+    margin: 40px 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.show__tablinks{
+    cursor: pointer;
+}
+
+.show__tablinks.active{
+    background-color: #2599ca;
+}
+

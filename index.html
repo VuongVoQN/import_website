@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    
+    <script src="https://kit.fontawesome.com/3109ebd9f7.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/servicesDetail.css">
+    <link rel="stylesheet" href="./css/showDetail.css">
+    <link rel="stylesheet" href="./css/benefit.css">
+    <link rel="stylesheet" href="./css/position.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+</head>
+
+<body>
+    <header>
+        <section class="top-bar">
+            <ul class="top-bar__information">
+                <li><i class="fas fa-dollar-sign"></i> TÝ GIÁ: 1 = 3,450</li>
+                <li>EMAIL: ADMIN@NHAPHANGSIEUTOC.COM</li>
+                <li>HOTLINE: 0126 - 922 - 0162</li>
+                <li>GIỜ LÀM VIỆC: 8:00 - 17:00</li>
+            </ul>
+        </section>
+
+        <section class="top-nav">
+            <div class="container">
+                <div class="top-nav__control">
+                    <div class="top-nav__logo">
+                        <a href="">Logo <span style="color:#29aae1">demo</span></a>
+                    </div>
+                    
+                    <ul class="top-nav__menu">
+                        <li><a href="">GIỚI THIỆU</a></li>
+                        <li><a href="">HƯỚNG DẪN</a></li>
+                        <li><a href="">BIỂU PHÍ</a></li>
+                        <li><a href="">CHÍNH SÁCH</a></li>
+                        <li><a href="">CÔNG CỤ</a></li>
+                        <li><a href="">ĐẶT HÀNG MOBILE</a></li>
+                    </ul>
+                                    
+                    <button class="top-nav__login">ĐĂNG KÍ &<br> ĐĂNG NHẬP</button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slide__container">
+                <div class="hero__slide fade">
+                    <img src="./image/banner-bg.png" width="100%" alt="banner-image">
+  
+                    <div class="container">
+                        <div class="hero__control">
+                            <p class="hero__introduce">Chúng tôi<br>
+                            <span style="font-weight: 600; font-size: 48px">CHUYÊN NHẬP HÀNG &<br>
+                            VẬN CHUYỂN HÀNG TỪ TRUNG QUỐC</span></p>
+
+                            <div class="hero__install">
+                                <p>CÀI ĐẶT CÔNG CỤ:</p>
+                                <button class="hero__button" id="hero__bt1"><i class="fab fa-chrome"></i> CHROME</span></button>
+                                <button class="hero__button" id="hero__bt2"><i class="fab fa-chrome"></i> CỐC CỐC</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>                 
+                </div>
+
+                <div class="hero__slide fade">
+                    <img src="./image/banner-bg.png" width="100%" alt="banner-image">
+  
+                    <div class="container">
+                        <div class="hero__control">
+                            <p class="hero__introduce">ABC<br>
+                            <span style="font-weight: 600; font-size: 48px">CHUYÊN NHẬP HÀNG &<br>
+                            VẬN CHUYỂN HÀNG TỪ TRUNG QUỐC</span></p>
+
+                            <div class="hero__install">
+                                <p>CÀI ĐẶT CÔNG CỤ:</p>
+                                <button class="hero__button" id="hero__bt1"><i class="fab fa-chrome"></i> CHROME</span></button>
+                                <button class="hero__button" id="hero__bt2"><i class="fab fa-chrome"></i> CỐC CỐC</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>                 
+                </div>
+
+                <div class="hero__slide fade">
+                    <img src="./image/banner-bg.png" width="100%" alt="banner-image">
+  
+                    <div class="container">
+                        <div class="hero__control">
+                            <p class="hero__introduce">Đây là website<br>
+                            <span style="font-weight: 600; font-size: 48px">CHUYÊN NHẬP HÀNG &<br>
+                            VẬN CHUYỂN HÀNG TỪ TRUNG QUỐC</span></p>
+
+                            <div class="hero__install">
+                                <p>CÀI ĐẶT CÔNG CỤ:</p>
+                                <button class="hero__button" id="hero__bt1"><i class="fab fa-chrome"></i> CHROME</span></button>
+                                <button class="hero__button" id="hero__bt2"><i class="fab fa-chrome"></i> CỐC CỐC</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>                 
+                </div>
+            </div>
+        </section>
+            
+        <section class="search">
+            <div class="search__control">
+                <div class="search__left">
+                    <div class="search__tab">
+                        <button class="search__tablinks" onclick="openCity(event, 'search')" id="defaultOpen">Tìm kiếm sản phẩm</button>
+                        <button class="search__tablinks" onclick="openCity(event, 'track')">Tracking</button>
+                    </div>
+
+                    <div id="search" class="search__tabcontent">
+                        <p>You have finished building your own website. You have introduce your com-<br>
+                        pany and presented your products and services.</p>
+                        <div class="search_control">
+                            <button class="search__button">TAOBAO</button>
+                            <button class="search__button">TMALL</button>
+                            <button class="search__button">1688</button>
+                        </div>
+                        <div class="buttonIn">
+                            <input id="search__input" type="text" placeholder="Tìm kiếm sản phẩm">
+                            <button id="button__inside">TÌM KIẾM</button>
+                        </div>
+                    </div>
+                    
+                    <div id="track" class="search__tabcontent">
+                        <p><span style="color:red">You have finished building your own website. You have introduce your com-<br>
+                        pany and presented your products and services.</span></p>
+                       <div class="search_control">
+                            <button class="search__button">TAOBAO</button>
+                            <button class="search__button">TMALL</button>
+                            <button class="search__button">1688</button>
+                        </div>
+                        <input id="search__input" type="text" placeholder="Tracking">
+                    </div>
+                </div>
+                            
+                <div class="search__right">
+                    <div class="search__item">
+                        <img src="./image/Forma1-leaves.svg" alt="icon-leaves">
+                        <div class="search__info">
+                            <p>05</p>
+                            <h4>NĂM KINH NGHIỆM</h4> 
+                        </div>       
+                    </div>
+
+                    <div class="search__item">
+                        <img src="./image/Forma1-note.svg" alt="icon-note">
+                        <div class="search__info">
+                            <p>12,345</p>
+                            <h4>KHÁCH HÀNG</h4> 
+                        </div> 
+                    </div>
+
+                    <div class="search__item">
+                        <img src="./image/Forma1-customer.svg" alt="icon-customer">
+                        <div class="search__info">
+                            <p>85,302</p>
+                            <h4>ĐƠN HÀNG</h4> 
+                        </div> 
+                    </div>                 
+                </div>
+            </div>
+        </section>    
+
+        <div class="search__img">
+            <img src="./image/container.png" width="100%" alt="img_container">
+        </div>
+
+        <section class="services">     
+            <div class="container">
+                <div class="services__header">
+                    <h4>Các dịch vụ</h4>
+                    <p>You have finished building your own website. You have introduce your company 
+                        and presented your products<br>and services. You have added...
+                    </p>
+                </div>
+            
+                <div class="services__control">
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-1.svg" alt="">
+                        </div>
+                        <h5>CHUYỂN, NẠP TIỀN ALIPAY, WECHAT</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                        
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-2.svg" alt="">
+                        </div>
+                        <h5>ĐẶT HÀNG, SHIP HÀNG QUỐC TẾ</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-3.svg" alt="">
+                        </div>
+                        <h5>CHUYỂN HÀNG HAI CHIỀU VIỆT TRUNG</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-4.svg" alt="">
+                        </div>
+                        <h5>HỖ TRỢ TƯ VẤN CHUYÊN NGHIỆP</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-5.svg" alt="">
+                        </div>
+                        <h5>DỄ DÀNG QUẢN LÝ ĐƠN HÀNG</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-6.svg" alt="">
+                        </div>
+                        <h5>GIAO HÀNG TẬN NƠI</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="servicesDetail">
+            <div class="container">
+                <div class="services__header">
+                    <h4>Các dịch vụ</h4>
+                </div>
+           
+                <div class="servicesDetail__control">
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'login')" id="defaultContent">
+                        <img src="./image/servicesDetail-1.svg" alt="">
+                        <p>ĐĂNG KÝ <br>TÀI KHOẢN</p>
+                    </div>
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'tool')">
+                        <img src="./image/servicesDetail-2.svg" alt="">
+                        <p>CÀI ĐẶT <br>CÔNG CỤ</p>
+                    </div>
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'pick')">
+                        <img src="./image/servicesDetail-3.svg" alt="">
+                        <p>CHỌN & THÊM<br> VÀO GIỎ</p>
+                    </div>
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'lock')">
+                        <img src="./image/servicesDetail-4.svg" alt="">
+                        <p>GỬI ĐƠN<br> ĐẶT HÀNG</p>
+                    </div>
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'money')">
+                        <img src="./image/servicesDetail-5.svg" alt="">
+                        <p>ĐẶT CỌC<br> TIỀN HÀNG</p>
+                    </div>
+                    <div class="servicesDetail__item show__tablinks" onclick="openOption(event, 'receive')">
+                        <img src="./image/servicesDetail-6.svg" alt="">
+                        <p>NHẬN HÀNG &<br> THANH TOÁN</p>
+                    </div>
+                </div>
+            </div>         
+        </section>
+        <section class="showDetail">
+            <div class="container">
+                <div class="showDetail__control">
+                    <div id="login" class="show__tabcontent">
+                        <div class="showDetail__img">
+                            <img src="./image/macbook.png" width=550px heigh=400px alt="img-macbook">
+                        </div>
+                        
+                        <div class="showDetail__content">
+                            <div class="showDetail__text">
+                                <h3>ĐĂNG KÝ TÀI KHOẢN</h3>
+                                <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                                even take battle on them. All I know is that they work and you should be familiar with this too.
+                                </p>
+                            </div>
+
+                            <div class="showDetail__setup">
+                                <button id="showDetail__button">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tool" class="show__tabcontent">
+                        <h3>CÀI ĐẶT CÔNG CỤ</h3>
+                        <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                            even take battle on them. All I know is that they work and you should be familiar with this too.
+                        </p>
+                    </div>
+
+                    <div id="pick" class="show__tabcontent">
+                        <div class="showDetail__img">
+                            <img src="./image/macbook.png" width=550px heigh=400px alt="img-macbook">
+                        </div>
+                        
+                        <div class="showDetail__content">
+                            <div class="showDetail__text">
+                                <h3>CHỌN VÀ THÊM VÀO GIỎ</h3>
+                                <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                                even take battle on them. All I know is that they work and you should be familiar with this too.
+                                </p>
+                            </div>
+
+                            <div class="showDetail__setup">
+                                <button id="showDetail__button">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="lock" class="show__tabcontent">
+                        <div class="showDetail__img">
+                            <img src="./image/macbook.png" width=550px heigh=400px alt="img-macbook">
+                        </div>
+                        
+                        <div class="showDetail__content">
+                            <div class="showDetail__text">
+                                <h3>GỬI ĐƠN ĐẶT HÀNG</h3>
+                                <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                                even take battle on them. All I know is that they work and you should be familiar with this too.
+                                </p>
+                            </div>
+
+                            <div class="showDetail__setup">
+                                <button id="showDetail__button">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="money" class="show__tabcontent">
+                        <div class="showDetail__img">
+                            <img src="./image/macbook.png" width=550px heigh=400px alt="img-macbook">
+                        </div>
+                        
+                        <div class="showDetail__content">
+                            <div class="showDetail__text">
+                                <h3>ĐẶT CỌC TIỀN HÀNG</h3>
+                                <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                                even take battle on them. All I know is that they work and you should be familiar with this too.
+                                </p>
+                            </div>
+
+                            <div class="showDetail__setup">
+                                <button id="showDetail__button">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="receive" class="show__tabcontent">
+                        <div class="showDetail__img">
+                            <img src="./image/macbook.png" width=550px heigh=400px alt="img-macbook">
+                        </div>
+                        
+                        <div class="showDetail__content">
+                            <div class="showDetail__text">
+                                <h3>NHẬN HÀNG VÀ THANH TOÁN</h3>
+                                <p>I am not to immediate to reveal them because I know the majorit doesn't 
+                                even take battle on them. All I know is that they work and you should be familiar with this too.
+                                </p>
+                            </div>
+
+                            <div class="showDetail__setup">
+                                <button id="showDetail__button">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="benefit">
+            <div class="container">
+                <div class="services__header">
+                    <h4>Quyền lợi khách hàng</h4>
+                    <p>You have finished building your own website. You have introduce your company 
+                        and presented your products<br>and services. You have added...
+                    </p>
+                </div>
+
+                <div class="services__control">
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-4.svg" alt="">
+                        </div>
+                        <h5>CHUYỂN, NẠP TIỀN ALIPAY, WECHAT</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-5.svg" alt="">
+                        </div>
+                        <h5>CHUYỂN, NẠP TIỀN ALIPAY, WECHAT</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="service__image">
+                            <img src="./image/services-6.svg" alt="">
+                        </div>
+                        <h5>CHUYỂN, NẠP TIỀN ALIPAY, WECHAT</h5>
+                        <p>Like the majority of sales people, I visit a huge number of clients
+                            and prospects every month, some end up...
+                        </p>
+                        <div class="services__more">
+                            <button>XEM THÊM</button>
+                            <i class="fas fa-arrow-circle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="position">
+            <div class="container">
+                <div class="position__control">
+                    <div class="position__information">
+                        <h5>ĐỊA CHỈ:</h5>
+                        <p>319 Lý Thường Kiệt, P.15, Q.11, Tp.hcm</p>
+                        <h5>HOTLINE:</h5>
+                        <p>0126 - 922 - 0162</p>
+                        <h5>EMAIL CONTACT:</h5>
+                        <p>admin@nhaphangsieutoc.com</p>
+                        <h5>GIỜ HOẠT ĐỘNG:</h5>
+                        <p>08:30 am - 05:30 pm</p>
+                    </div>
+
+                    <div class="position__map">
+                        <div id="googleMap" style="width:100%;height:350px;"></div>
+                    </div>           
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__control">
+                    <div class="column-4 footer__logo">
+                        <div class="bottom__logo">
+                            <a href="">Logo demo</a>
+                        </div>
+                        <p>Successful businesses have many things in common, 
+                        today we’ll look at the big 'R'of recognition and how a 
+                        digital advertising network may help.</p>
+                    </div>
+
+                    <div class="column-4 footer__menu">
+                        <h4>MENU</h4>
+                        <ul>
+                            <a href=""><li>Trang chủ <span style="color:#277799; float: right">&#10095</span></li></a>
+                            <a href=""><li>Giới thiệu<span style="color:#277799; float: right">&#10095</span></li></a>
+                            <a href=""><li>Sản phẩm<span style="color:#277799; float: right">&#10095</span></li></a>
+                            <a href=""><li>Tin tức<span style="color:#277799; float: right">&#10095</span></li></a>
+                            <a href=""><li>Liên hệ<span style="color:#277799; float: right">&#10095</span></li></a>                        
+                        </ul>
+                    </div>
+
+                    <div class="column-4 footer_fanpage">
+                        <div class="fanpage">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkinhte.kienthuc&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="230" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Design by <span style="color: #2e4a2e;">Mona</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfawsUUa-5D7bZ3c_zb2WrH49LIRAz9d4&callback=myMap"></script>
+</body>
+</html>
+

@@ -1,0 +1,93 @@
+@font-face {
+    font-family: SFProDisplay;
+    src: url("../font/FontsFree-Net-SFProDisplay-Bold.ttf");
+  }
+
+.slide__container {
+    position: relative;
+    max-width: 1440px;
+    height: 484px;
+}
+
+.hero__control{
+    position: absolute;
+    top: 30%;
+
+    color: white;
+    font-size: 24px;
+}
+
+.next, .prev {
+    position: absolute;
+    top: 40%;
+    width: auto;
+    cursor: pointer;
+
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.hero__install {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.hero__install p {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.hero__button {
+    font-family: SFProDisplay;
+    border-radius: 20px;
+
+    color: white;
+
+    padding: 5px 20px;
+    margin: 2px;
+}
+
+#hero__bt1 {
+    background-color: #ec1f27;
+}
+
+#hero__bt1:hover {
+    background-color:  #c4171d;
+}
+
+#hero__bt2 {
+    background-color: #2eb872;
+}
+
+#hero__bt2:hover {
+    background-color: #19854f;
+}
